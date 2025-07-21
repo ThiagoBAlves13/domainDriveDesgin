@@ -3,9 +3,8 @@ package br.com.alura.codechella.domain.evento;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import br.com.alura.codechella.Categoria;
-import br.com.alura.codechella.DadosCadastroTipoIngresso;
-import br.com.alura.codechella.Endereco;
+import br.com.alura.codechella.aplicacao.ingresso.DadosCadastroTipoIngresso;
+import br.com.alura.codechella.infra.evento.Endereco;
 
 public class Evento {
 	
